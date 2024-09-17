@@ -7,7 +7,7 @@ resource "hcp_hvn" "vault_hvn" {
 
 resource "hcp_vault_cluster" "vault_cluster" {
   cluster_id = "cohort7-vault-cluster"
-  hvn_id     = hcp_hvn.example.hvn_id
+  hvn_id     = hcp_hvn.vault_hvn.hvn_id
   tier       = "starter_small"
   public_endpoint = true 
 }
