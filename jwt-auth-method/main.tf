@@ -5,7 +5,7 @@ resource "vault_jwt_auth_backend" "example" {
     bound_issuer        = "https://app.terraform.io"
 }
 
-resource "vault_policy" "admin_policy" {
+resource "vault_policy" "example" {
   name = "admin-policy"
 
   policy = <<EOT
