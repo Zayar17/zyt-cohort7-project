@@ -39,11 +39,11 @@ path "sys/mounts" {
   capabilities = ["read"]
 }
 
-path "ars-aws/" {
+path "aws-master/" {
   capabilities = ["create", "read", "update", "delete", "list", "sudo"]
 }
 
-path "ars-aws/*" {
+path "aws-master/*" {
   capabilities = ["create", "read", "update", "delete", "list", "sudo"]
 }
 
