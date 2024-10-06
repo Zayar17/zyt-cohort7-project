@@ -13,7 +13,7 @@ variable "org_name" {
 variable "vault_url" {
   description = "The address of the Vault instance runs will access."
   type        = string
-  default     = "https://cohort7-vault-cluster-public-vault-3e4c62e6.c408c7ce.z1.hashicorp.cloud:8200"
+  default     = "https://cohort7-vault-cluster-public-vault-710b7e88.d53fed3a.z1.hashicorp.cloud:8200"
 }
 variable "run_role" {
   description = "TFC_VAULT_RUN_ROLE"
