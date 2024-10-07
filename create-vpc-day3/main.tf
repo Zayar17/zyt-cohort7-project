@@ -70,7 +70,7 @@ resource "aws_subnet" "private_subnet" {
 }
 
 # Create a route table for private subnets
-resource "aws_route_table" "private_subnet_rt" {
+resource "aws_route_table" "private_route_table" {
   vpc_id = aws_vpc.secureops_vpc.id
 
   tags = {
