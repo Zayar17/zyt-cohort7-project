@@ -1,6 +1,6 @@
 variable "vpc_name" {
   description = "The name of the VPC."
-  default = "secureops_vpc"
+  default     = "secureops_vpc"
 }
 
 variable "public_cidr_block" {
